@@ -9,4 +9,4 @@ arguments:
      num_of_dbs: 1
      db_size: t2.micro
      size: t2.medium
-     region: ap-southeast-1
+     #region: ap-southeast-1
