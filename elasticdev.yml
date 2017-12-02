@@ -10,7 +10,7 @@ arguments:
      db_size: t2.micro
      size: t2.micro
      region: us-east-1
-     repo_branches: 
-                   - dev
-                   - master
+     branch: 
+            - dev
+            - master
      #region: ap-southeast-1
