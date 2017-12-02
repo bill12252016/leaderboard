@@ -10,7 +10,7 @@ arguments:
      db_size: t2.micro
      size: t2.micro
      region: us-east-1
-     branch: 
-            - dev
-            - master
+     triggered_branches: 
+                       - dev
+                       - master
      #region: ap-southeast-1
