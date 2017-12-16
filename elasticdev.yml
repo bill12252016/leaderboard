@@ -47,7 +47,7 @@ build:
                  - test@elasticdev.io
    triggers:
        name: leaderboard
-       trigger_path: deploy::leaderboard:
+       trigger_path: deploy::leaderboard
        channels:
            - deploy_1
 deploy:
