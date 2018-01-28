@@ -1,4 +1,3 @@
-project_name: Leaderboard
 global_arguments:
      EnvVars:
         METEOR_SETTINGS: '{{ METEOR_SETTINGS }}'
@@ -10,13 +9,15 @@ infrastructure:
        stack_name: gary:::public::Cloud/Ec2/VPC/3tier_dbtype
    db:
        stack_name: gary:::public::Cluster/Ubuntu/Ec2/param_db
-       dependencies: infrastructure::vpc
+       dependencies: 
+           - infrastructure::vpc
        arguments:
           dbs: 3
           size: t2.micro
    dockerhost:
        stack_name: gary:::public::Deploy/Docker/Dev/SingleHost/dockerhost
-       dependencies: infrastructure::vpc
+       dependencies: 
+           - infrastructure::vpc
        arguments:
           size: t2.medium
           disksize: 100
