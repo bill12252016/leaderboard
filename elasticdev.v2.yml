@@ -53,6 +53,6 @@ build:
            - deploy_1
 deploy:
     leaderboard:
-        stack_name: gary:::publlic::docker/meteor
+        stack_name: gary:::public::docker/meteor
         arguments:
             docker-compose: compose_yaml
