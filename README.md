@@ -24,9 +24,5 @@ lfEqAfvD
 mrDiuz02
 RVH1WM3g
 RbzromLt
-uo5oCT9k
-<<<<<<< HEAD
-
-=======
-abababab
->>>>>>> 4e313082d67eb5dee9965975bdfd76a6d703153b
+uo5oCT9d
+kalbaba2
